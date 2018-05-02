@@ -4,14 +4,15 @@
 
 # Head info
 head:
-    favicon: "/img/logo_miccall.png"
-    keywords: miccall
-    backgroundpic : "img/bg.jpg"
+    favicon: "/img/favicon.png"
+    high_res_favicon: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
+    keywords: unique ai
 
 Intro:
-    name: MICCALL
-    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-    HeadButton: MICCALL
+    name: "UNIQUE<br/>AI LAB"
+    slogan: "THINK AI, CULTIVATE ELITE."
+    HeadButton: UNIQUE AI
 
 Nav:
     Home_name: 主页
@@ -22,7 +23,7 @@ Nav:
     icon:
         github: 
             use: true
-            link: https://github.com/miccall
+            link: https://github.com/UNIQUE-AILAB
         Twitter:
             use: false
             link: 
@@ -33,21 +34,19 @@ Nav:
             use: false
             link:
     pages:
-        简历: 
+        简介: 
             link: "/about/"
-        团队 :
-            link: "/group/"
-        图库 :
-            link: "/gallery/"
-        标签:
-            link: "/tag/"
+        项目:
+            link: "/project/"
+        成员:
+            link: "/member/"
         #自定义标签名
         #   link：“路径”
 
 MainFirst:
-    name: Miccall Metro
-    description: Technical  Artist  of  Games   
-    pic_url: /images/me.jpg
+    name: UNIQUE AI LAB
+    description: Welcome to our Blog  
+    pic_url: /img/logo.jpeg
     goto_ulr: ""
 
 Gallery :
@@ -70,7 +69,7 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # Available value of "use":
 #     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: disqus_click
+    use: false
     shortname: http-miccall-tech 
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
@@ -101,9 +100,9 @@ busuanzi:
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 # Mathjax Support
-#mathjax:
-  #enable: true
-  #per_page: false
-  #cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 
